@@ -2,6 +2,6 @@ version: 0.1
 frontend:
     build:
       commands:
-        - npm start
+        - npm run build
     artifacts:
-      baseDirectory: public
+      baseDirectory: build
